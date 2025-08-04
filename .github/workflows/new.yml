@@ -12,8 +12,8 @@ jobs:
       - name: Set up Java
         uses: action/setup-java@v3
         with:
-        distribution: 'temruin'
-        java-version: "17"
+          distribution: 'temruin'
+          java-version: "17"
       - name: Compile java program
         run: javac Action.java
       - name: run Action
